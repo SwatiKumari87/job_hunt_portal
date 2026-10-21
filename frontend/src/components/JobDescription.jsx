@@ -54,9 +54,9 @@ const JobDescription = () => {
                 const res = await axios.get(`${APPLICATION_API_END_POINT}/apply/${jobId}`, { withCredentials: true });
                 if (res.data.success) {
                     setIsApplied(true);
-                    const updatedSingleJob = { 
-                        ...singleJob, 
-                        applications: [...(singleJob.applications || []), { applicant: user._id }] 
+                    const updatedSingleJob = {
+                        ...singleJob,
+                        applications: [...(singleJob.applications || []), { applicant: user._id }]
                     };
                     dispatch(setSingleJob(updatedSingleJob));
                 }
@@ -90,7 +90,7 @@ const JobDescription = () => {
                 console.log(error);
             }
         }
-        fetchSingleJob(); 
+        fetchSingleJob();
     }, [jobId, dispatch, user?._id]);
 
     const postedDate = singleJob?.createdAt ? singleJob.createdAt.split("T")[0] : "Recently";
@@ -104,10 +104,10 @@ const JobDescription = () => {
                 <div className='bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row items-start md:items-center justify-between gap-4'>
                     <div className='flex items-start gap-4'>
                         {singleJob?.company?.logo && (
-                            <img 
-                                src={singleJob.company.logo} 
-                                alt={singleJob?.company?.name || "Company"} 
-                                className='w-16 h-16 rounded-lg object-contain border p-1 bg-gray-50' 
+                            <img
+                                src={singleJob.company.logo}
+                                alt={singleJob?.company?.name || "Company"}
+                                className='w-16 h-16 rounded-lg object-contain border p-1 bg-gray-50'
                             />
                         )}
                         <div>
@@ -211,9 +211,9 @@ const JobDescription = () => {
                                     {singleJob.company.description || "Leading innovator in technology."}
                                 </p>
                                 {realApplyUrl && (
-                                    <a 
-                                        href={realApplyUrl} 
-                                        target='_blank' 
+                                    <a
+                                        href={realApplyUrl}
+                                        target='_blank'
                                         rel='noopener noreferrer'
                                         className='inline-flex items-center gap-1.5 text-xs font-semibold text-purple-600 hover:text-purple-800 mt-4'
                                     >
