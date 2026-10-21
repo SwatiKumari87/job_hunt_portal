@@ -1,0 +1,1962 @@
+{
+  "users": [
+    {
+      "_id": "7af22ccae59a425825cb99f2",
+      "fullname": "Alex Johnson (Demo Student)",
+      "email": "student@demo.com",
+      "phoneNumber": 9876543210,
+      "password": "$2a$10$1dPrualS5HtxoAAHiPxs2enagEQoqUxooeE9D8VR/VTnHRNiLRbAa",
+      "role": "student",
+      "profile": {
+        "bio": "Full Stack Developer passionate about modern web technologies.",
+        "skills": [
+          "React",
+          "Node.js",
+          "TypeScript",
+          "TailwindCSS"
+        ],
+        "profilePhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150"
+      },
+      "createdAt": "2026-10-21T12:49:25.744Z",
+      "updatedAt": "2026-10-21T12:49:25.745Z"
+    },
+    {
+      "_id": "e51c051f5c9e369aab728528",
+      "fullname": "Sarah Miller (Demo Recruiter)",
+      "email": "recruiter@demo.com",
+      "phoneNumber": 9123456780,
+      "password": "$2a$10$1dPrualS5HtxoAAHiPxs2enagEQoqUxooeE9D8VR/VTnHRNiLRbAa",
+      "role": "recruiter",
+      "profile": {
+        "bio": "Talent Acquisition Lead at Top Tech Global.",
+        "profilePhoto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150"
+      },
+      "createdAt": "2026-10-21T12:49:25.745Z",
+      "updatedAt": "2026-10-21T12:49:25.745Z"
+    },
+    {
+      "fullname": "Test User",
+      "email": "testuser@gmail.com",
+      "phoneNumber": 1234567890,
+      "password": "$2a$10$CHMPdvPoet7We1/4kX2yEu1iY3crEkKzQOnJfUZdiYJJLLU8phY7m",
+      "role": "student",
+      "profile": {
+        "profilePhoto": "https://github.com/shadcn.png"
+      },
+      "_id": "f5ffa38fb7bd38bbf2f93a08",
+      "createdAt": "2026-10-21T12:50:15.911Z",
+      "updatedAt": "2026-10-21T12:50:15.911Z"
+    },
+    {
+      "fullname": "SWATI",
+      "email": "swati.kri1512@gmail.com",
+      "phoneNumber": "08294980234",
+      "password": "$2a$10$gRHpQXYagMlreLbaSAZP1.DbXadlz9l3hFQiTQ4iDOl1Rd17vU4KO",
+      "role": "student",
+      "profile": {
+        "profilePhoto": "https://github.com/shadcn.png"
+      },
+      "_id": "5e2da44d47fc42c398ba1ade",
+      "createdAt": "2026-10-21T12:54:18.237Z",
+      "updatedAt": "2026-10-21T12:54:18.237Z"
+    }
+  ],
+  "companies": [
+    {
+      "_id": "e3f08904884dc19630b70034",
+      "name": "Ruby Labs",
+      "description": "Innovative global technology firm specializing in Marketing & Sales.",
+      "website": "https://jobicy.com/jobs/156150-senior-user-acquisition-manager-paid-social-ads",
+      "location": "Europe",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/0799a7b7-221-1.jpeg",
+      "userId": "e51c051f5c9e369aab728528",
+      "createdAt": "2026-10-21T12:49:27.004Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z"
+    },
+    {
+      "_id": "4b776f826a05d987f8320eb6",
+      "name": "Deepgram",
+      "description": "Innovative global technology firm specializing in Data Science & Analytics.",
+      "website": "https://jobicy.com/jobs/156157-director-text-to-speech-synthesis-research",
+      "location": "UK",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2020/12/WRILS-201212160008-406229.jpg",
+      "userId": "e51c051f5c9e369aab728528",
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z"
+    },
+    {
+      "_id": "e034a2bd280eafc162ec93c6",
+      "name": "Algolia",
+      "description": "Innovative global technology firm specializing in Sales.",
+      "website": "https://jobicy.com/jobs/156154-commercial-account-executive-dach",
+      "location": "Germany",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2020/12/WRILS-201202014849-982609.jpg",
+      "userId": "e51c051f5c9e369aab728528",
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z"
+    },
+    {
+      "_id": "885c038b8ad7a7924c90f52c",
+      "name": "Laminar Projects",
+      "description": "Innovative global technology firm specializing in Product & Operations.",
+      "website": "https://jobicy.com/jobs/156149-product-manager-4-day-week-remote-2",
+      "location": "Poland,  Portugal",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/5bd8df6b-221.png",
+      "userId": "e51c051f5c9e369aab728528",
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z"
+    },
+    {
+      "_id": "c048ea4a18aa3e3a75344123",
+      "name": "Upvest",
+      "description": "Innovative global technology firm specializing in Finance & Accounting.",
+      "website": "https://jobicy.com/jobs/156142-stagiaire-operations-titres-f-h-d",
+      "location": "France,  Germany",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/ca06e577-221.png",
+      "userId": "e51c051f5c9e369aab728528",
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z"
+    },
+    {
+      "_id": "5d414ae61106d7a383f9c8e1",
+      "name": "TRM Labs",
+      "description": "Innovative global technology firm specializing in Cybersecurity.",
+      "website": "https://jobicy.com/jobs/156139-senior-all-source-investigator-severe-harms",
+      "location": "UK,  USA",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/34aa038c-221.png",
+      "userId": "e51c051f5c9e369aab728528",
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z"
+    },
+    {
+      "_id": "a4fcb9faf1704cca0ad15b9b",
+      "name": "Chainguard",
+      "description": "Innovative global technology firm specializing in Technical Support.",
+      "website": "https://jobicy.com/jobs/156145-it-specialist",
+      "location": "UK",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/e4b6aacf-221.jpeg",
+      "userId": "e51c051f5c9e369aab728528",
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z"
+    },
+    {
+      "name": "StackAdapt",
+      "description": "Official company page for StackAdapt",
+      "website": "https://jobicy.com/jobs/156137-sales-manager-southeast-asia",
+      "location": "Malaysia,  Singapore",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2022/01/bf5f2bb689c6f35f6cab5459f3eff869.jpg",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "acca6988e145443341452ea3",
+      "createdAt": "2026-10-21T12:50:31.404Z",
+      "updatedAt": "2026-10-21T12:50:31.404Z"
+    },
+    {
+      "name": "Huntress",
+      "description": "Official company page for Huntress",
+      "website": "https://jobicy.com/jobs/156136-senior-detection-engineering-threat-hunting-analyst",
+      "location": "Australia",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/91eae3ae-221.jpg",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "5d54862506015e0ff5b8218c",
+      "createdAt": "2026-10-21T12:50:31.405Z",
+      "updatedAt": "2026-10-21T12:50:31.405Z"
+    },
+    {
+      "name": "allaboutHRLaw GmbH",
+      "description": "Official company page for allaboutHRLaw GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/allabouthrlaw-gmbh/junior-hr-business-partner-in-teil-oder-vollzeit-cologne-189594",
+      "location": "Cologne",
+      "logo": "https://ui-avatars.com/api/?name=allaboutHRLaw%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "be6bb55d802d9dcb012978a1",
+      "createdAt": "2026-10-21T13:14:07.096Z",
+      "updatedAt": "2026-10-21T13:14:07.096Z"
+    },
+    {
+      "name": "DWWA Personalberatung GmbH",
+      "description": "Official company page for DWWA Personalberatung GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/dwwa-personalberatung-gmbh/saas-software-sales-manager-region-sud-full-remote-berlin-273863",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=DWWA%20Personalberatung%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "8e2f1f3b1bb10fa4f173531e",
+      "createdAt": "2026-10-21T13:14:07.099Z",
+      "updatedAt": "2026-10-21T13:14:07.099Z"
+    },
+    {
+      "name": "Sidekick Network GmbH & Co. KG",
+      "description": "Official company page for Sidekick Network GmbH & Co. KG",
+      "website": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-sap-wm-hu-consultant-freelance-berlin-175333",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=Sidekick%20Network%20GmbH%20%26%20Co.%20KG&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "2af65e5a9ab832846fb8fe84",
+      "createdAt": "2026-10-21T13:14:07.100Z",
+      "updatedAt": "2026-10-21T13:14:07.100Z"
+    },
+    {
+      "name": "Digitale Offensive GmbH",
+      "description": "Official company page for Digitale Offensive GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/digitale-offensive-gmbh/werkstudent-digital-design-ui-design-bielefeld-166483",
+      "location": "Bielefeld",
+      "logo": "https://ui-avatars.com/api/?name=Digitale%20Offensive%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "13fdfc147badb5f9fc8dfb80",
+      "createdAt": "2026-10-21T13:14:07.101Z",
+      "updatedAt": "2026-10-21T13:14:07.101Z"
+    },
+    {
+      "name": "Sentinellabs",
+      "description": "Official company page for Sentinellabs",
+      "website": "https://www.arbeitnow.com/jobs/companies/sentinellabs/enterprise-account-executive-137350",
+      "location": "Europe",
+      "logo": "https://ui-avatars.com/api/?name=Sentinellabs&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "aa0f726cefc0043b0bfb47b9",
+      "createdAt": "2026-10-21T13:14:07.102Z",
+      "updatedAt": "2026-10-21T13:14:07.102Z"
+    },
+    {
+      "name": "Verkada",
+      "description": "Official company page for Verkada",
+      "website": "https://www.arbeitnow.com/jobs/companies/verkada/enterprise-account-executive-dach-187737",
+      "location": "Europe",
+      "logo": "https://ui-avatars.com/api/?name=Verkada&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "b08bd7dc2529ecc6810cbcca",
+      "createdAt": "2026-10-21T13:14:07.103Z",
+      "updatedAt": "2026-10-21T13:14:07.103Z"
+    },
+    {
+      "name": "Temporal Technologies",
+      "description": "Official company page for Temporal Technologies",
+      "website": "https://www.arbeitnow.com/jobs/companies/temporal-technologies/remote-senior-account-executive-growth-dach-10537",
+      "location": "Germany (Remote)",
+      "logo": "https://ui-avatars.com/api/?name=Temporal%20Technologies&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "747fa68d8fa81890b929b475",
+      "createdAt": "2026-10-21T13:14:07.103Z",
+      "updatedAt": "2026-10-21T13:14:07.103Z"
+    },
+    {
+      "name": "Flip GmbH",
+      "description": "Official company page for Flip GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/flip-gmbh/customer-success-intern-stuttgart-490718",
+      "location": "Stuttgart & Remote",
+      "logo": "https://ui-avatars.com/api/?name=Flip%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "8f41d920c42893c2a7dbe98a",
+      "createdAt": "2026-10-21T13:14:07.104Z",
+      "updatedAt": "2026-10-21T13:14:07.104Z"
+    },
+    {
+      "name": "Se3",
+      "description": "Official company page for Se3",
+      "website": "https://www.arbeitnow.com/jobs/companies/se3/uav-software-and-controls-engineer-munich-102074",
+      "location": "Munich",
+      "logo": "https://ui-avatars.com/api/?name=Se3&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "64cebfb9679431b1c7eeb6b7",
+      "createdAt": "2026-10-21T13:14:07.105Z",
+      "updatedAt": "2026-10-21T13:14:07.105Z"
+    },
+    {
+      "name": "Applike Group",
+      "description": "Official company page for Applike Group",
+      "website": "https://www.arbeitnow.com/jobs/companies/applike-group/it-support-technician-hamburg-36477",
+      "location": "Hamburg",
+      "logo": "https://ui-avatars.com/api/?name=Applike%20Group&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "6f9d5e8af2a13b93fa3344f3",
+      "createdAt": "2026-10-21T13:14:07.105Z",
+      "updatedAt": "2026-10-21T13:14:07.105Z"
+    },
+    {
+      "name": "Applied",
+      "description": "Official company page for Applied",
+      "website": "https://www.arbeitnow.com/jobs/companies/applied/senior-people-business-partner-emea-munchen-196461",
+      "location": "Munich",
+      "logo": "https://ui-avatars.com/api/?name=Applied&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "d2f5d2907259cc4979fec178",
+      "createdAt": "2026-10-21T13:14:07.106Z",
+      "updatedAt": "2026-10-21T13:14:07.106Z"
+    },
+    {
+      "name": "NetBird",
+      "description": "Official company page for NetBird",
+      "website": "https://www.arbeitnow.com/jobs/companies/netbird/founders-associate-berlin-123488",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=NetBird&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "f81a83c160e18fd37f6598a1",
+      "createdAt": "2026-10-21T13:14:07.107Z",
+      "updatedAt": "2026-10-21T13:14:07.107Z"
+    },
+    {
+      "name": "væridion",
+      "description": "Official company page for væridion",
+      "website": "https://www.arbeitnow.com/jobs/companies/vaeridion/hse-officer-interne-fachkraft-fur-arbeitssicherheit-all-genders-munich-163857",
+      "location": "Manufacturing & Testing Facility",
+      "logo": "https://ui-avatars.com/api/?name=v%C3%A6ridion&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "7c6881255bdebb6a436bbada",
+      "createdAt": "2026-10-21T13:14:07.108Z",
+      "updatedAt": "2026-10-21T13:14:07.108Z"
+    },
+    {
+      "name": "CodeRabbit",
+      "description": "Official company page for CodeRabbit",
+      "website": "https://www.arbeitnow.com/jobs/companies/coderabbit/remote-enterprise-field-engineer-pre-sales-southeast-atlanta-82243",
+      "location": "remote",
+      "logo": "https://ui-avatars.com/api/?name=CodeRabbit&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "6e525fc1a03c647720acc90e",
+      "createdAt": "2026-10-21T13:14:07.109Z",
+      "updatedAt": "2026-10-21T13:14:07.109Z"
+    },
+    {
+      "name": "Amber",
+      "description": "Official company page for Amber",
+      "website": "https://www.arbeitnow.com/jobs/companies/amber/sales-development-representative-f-m-koln-349685",
+      "location": "Köln",
+      "logo": "https://ui-avatars.com/api/?name=Amber&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "944609843244a89808177934",
+      "createdAt": "2026-10-21T13:14:07.109Z",
+      "updatedAt": "2026-10-21T13:14:07.109Z"
+    },
+    {
+      "name": "Neurawork GmbH & Co. KG",
+      "description": "Official company page for Neurawork GmbH & Co. KG",
+      "website": "https://www.arbeitnow.com/jobs/companies/neurawork-gmbh-co-kg/senior-microsoft-365-engineer-multi-tenant-automatisierung-berlin-52350",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=Neurawork%20GmbH%20%26%20Co.%20KG&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "e5f4ad84f06eca26f89e3844",
+      "createdAt": "2026-10-21T13:14:07.111Z",
+      "updatedAt": "2026-10-21T13:14:07.111Z"
+    },
+    {
+      "name": "DriveCon GmbH",
+      "description": "Official company page for DriveCon GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/drivecon-gmbh/ausbildung-zum-fachinformatiker-fur-systemintegration-mwd-2027-dettelbach-405949",
+      "location": "Dettelbach",
+      "logo": "https://ui-avatars.com/api/?name=DriveCon%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "36d0154c01c2ee196b392cee",
+      "createdAt": "2026-10-21T13:14:07.112Z",
+      "updatedAt": "2026-10-21T13:14:07.112Z"
+    },
+    {
+      "name": "Beutler Saghari & Partner GmbH",
+      "description": "Official company page for Beutler Saghari & Partner GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/beutler-saghari-partner-gmbh/telef-kundenberater-minijob-iserlohn-423924",
+      "location": "Iserlohn",
+      "logo": "https://ui-avatars.com/api/?name=Beutler%20Saghari%20%26%20Partner%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "5cee0d98183e3d4da27301e8",
+      "createdAt": "2026-10-21T13:14:07.112Z",
+      "updatedAt": "2026-10-21T13:14:07.112Z"
+    },
+    {
+      "name": "Enzo",
+      "description": "Official company page for Enzo",
+      "website": "https://www.arbeitnow.com/jobs/companies/enzo/tech-startup-customer-success-agent-waterflow-agent-heidelberg-439224",
+      "location": "Heidelberg",
+      "logo": "https://ui-avatars.com/api/?name=Enzo&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "eebe338deca86f35d2a45ec8",
+      "createdAt": "2026-10-21T13:14:07.113Z",
+      "updatedAt": "2026-10-21T13:14:07.113Z"
+    },
+    {
+      "name": "Huzzle",
+      "description": "Official company page for Huzzle",
+      "website": "https://www.arbeitnow.com/jobs/companies/huzzle/remote-accounting-expert-ai-model-evaluation-germany-30961",
+      "location": "Germany",
+      "logo": "https://ui-avatars.com/api/?name=Huzzle&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "cd155b7ee29b26439d9336f7",
+      "createdAt": "2026-10-21T13:14:07.115Z",
+      "updatedAt": "2026-10-21T13:14:07.115Z"
+    },
+    {
+      "name": "Cygrid GmbH",
+      "description": "Official company page for Cygrid GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=Cygrid%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "b4bbd4ba0fddbc32442ca6bb",
+      "createdAt": "2026-10-21T13:14:07.116Z",
+      "updatedAt": "2026-10-21T13:14:07.116Z"
+    },
+    {
+      "name": "Cyclomedia Technology",
+      "description": "Official company page for Cyclomedia Technology",
+      "website": "https://www.arbeitnow.com/jobs/companies/cyclomedia-technology/head-senior-director-of-sales-central-europe-wetzlar-76021",
+      "location": "Wetzlar",
+      "logo": "https://ui-avatars.com/api/?name=Cyclomedia%20Technology&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "58cf6215d2187733b7eaf315",
+      "createdAt": "2026-10-21T13:14:07.117Z",
+      "updatedAt": "2026-10-21T13:14:07.117Z"
+    },
+    {
+      "name": "Avomind",
+      "description": "Official company page for Avomind",
+      "website": "https://www.arbeitnow.com/jobs/companies/avomind/remote-principal-consultant-dach-germany-377093",
+      "location": "Germany",
+      "logo": "https://ui-avatars.com/api/?name=Avomind&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "7fbab3ab8fb16539b051f53b",
+      "createdAt": "2026-10-21T13:14:07.118Z",
+      "updatedAt": "2026-10-21T13:14:07.118Z"
+    },
+    {
+      "name": "Ilias Vassiliou & Team / headhunter.digital / Recruiting für Digital, Sales, IT, KI, Automation",
+      "description": "Official company page for Ilias Vassiliou & Team / headhunter.digital / Recruiting für Digital, Sales, IT, KI, Automation",
+      "website": "https://www.arbeitnow.com/jobs/companies/ilias-vassiliou-team-headhunterdigital-recruiting-fur-digital-sales-it-ki-automation/partner-channel-sales-manager-saas-fur-borsennotierte-ags-rhein-main-bawu-hybrid-frankfurt-am-main-155234",
+      "location": "Frankfurt am Main",
+      "logo": "https://ui-avatars.com/api/?name=Ilias%20Vassiliou%20%26%20Team%20%2F%20headhunter.digital%20%2F%20Recruiting%20f%C3%BCr%20Digital%2C%20Sales%2C%20IT%2C%20KI%2C%20Automation&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "804c1dbfb2e61da0ac25c40c",
+      "createdAt": "2026-10-21T13:14:07.119Z",
+      "updatedAt": "2026-10-21T13:14:07.119Z"
+    },
+    {
+      "name": "CONTXT Online-Marketing GmbH",
+      "description": "Official company page for CONTXT Online-Marketing GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/contxt-online-marketing-gmbh/junior-sea-manager-ober-ramstadt-220358",
+      "location": "Ober-Ramstadt",
+      "logo": "https://ui-avatars.com/api/?name=CONTXT%20Online-Marketing%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "87ada19f54e30d63a5436903",
+      "createdAt": "2026-10-21T13:14:07.120Z",
+      "updatedAt": "2026-10-21T13:14:07.120Z"
+    },
+    {
+      "name": "Beilmann Marketing GmbH",
+      "description": "Official company page for Beilmann Marketing GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/beilmann-marketing-gmbh/werkstudentin-office-recruiting-mannheim-412417",
+      "location": "Mannheim",
+      "logo": "https://ui-avatars.com/api/?name=Beilmann%20Marketing%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "be36871248e05bb6e4264c0f",
+      "createdAt": "2026-10-21T13:14:07.121Z",
+      "updatedAt": "2026-10-21T13:14:07.121Z"
+    },
+    {
+      "name": "PC CADDIE AG",
+      "description": "Official company page for PC CADDIE AG",
+      "website": "https://www.arbeitnow.com/jobs/companies/pc-caddie-ag/support-kundenbetreuung-berlin-449664",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=PC%20CADDIE%20AG&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "4e3cdbdbd92666b4b866b0ba",
+      "createdAt": "2026-10-21T13:14:07.123Z",
+      "updatedAt": "2026-10-21T13:14:07.123Z"
+    },
+    {
+      "name": "FlexIT Consulting GmbH",
+      "description": "Official company page for FlexIT Consulting GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/flexit-consulting-gmbh/director-it-digital-innovation-hamm-69076",
+      "location": "Hamm",
+      "logo": "https://ui-avatars.com/api/?name=FlexIT%20Consulting%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "e261e09295b59fe44b04f749",
+      "createdAt": "2026-10-21T13:14:07.124Z",
+      "updatedAt": "2026-10-21T13:14:07.124Z"
+    },
+    {
+      "name": "CI Composite Impulse GmbH & Co",
+      "description": "Official company page for CI Composite Impulse GmbH & Co",
+      "website": "https://www.arbeitnow.com/jobs/companies/ci-composite-impulse-gmbh-co/projektingenieur-gevelsberg-181148",
+      "location": "Gevelsberg",
+      "logo": "https://ui-avatars.com/api/?name=CI%20Composite%20Impulse%20GmbH%20%26%20Co&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "990584b1e6e35265b1b90e52",
+      "createdAt": "2026-10-21T13:14:07.125Z",
+      "updatedAt": "2026-10-21T13:14:07.125Z"
+    },
+    {
+      "name": "KplusA Communications GmbH",
+      "description": "Official company page for KplusA Communications GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/kplusa-communications-gmbh/praktikant-in-social-media-online-marketing-dusseldorf-134318",
+      "location": "Düsseldorf",
+      "logo": "https://ui-avatars.com/api/?name=KplusA%20Communications%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "d4155c8ca6b227839193f379",
+      "createdAt": "2026-10-21T13:14:07.127Z",
+      "updatedAt": "2026-10-21T13:14:07.127Z"
+    },
+    {
+      "name": "Schweitzer Project Spa",
+      "description": "Official company page for Schweitzer Project Spa",
+      "website": "https://www.arbeitnow.com/jobs/companies/schweitzer-project-spa/partner-manager-service-cooling-hildesheim-347282",
+      "location": "Hildesheim",
+      "logo": "https://ui-avatars.com/api/?name=Schweitzer%20Project%20Spa&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "4f12502b825f418b87315b57",
+      "createdAt": "2026-10-21T13:14:07.128Z",
+      "updatedAt": "2026-10-21T13:14:07.128Z"
+    },
+    {
+      "name": "NXT Hero GmbH",
+      "description": "Official company page for NXT Hero GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/nxt-hero-gmbh/linux-administrator-chemnitz-95186",
+      "location": "Chemnitz",
+      "logo": "https://ui-avatars.com/api/?name=NXT%20Hero%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "38ee8638bcfafa9b68a3e8e5",
+      "createdAt": "2026-10-21T13:14:07.129Z",
+      "updatedAt": "2026-10-21T13:14:07.129Z"
+    },
+    {
+      "name": "Brezzels GmbH",
+      "description": "Official company page for Brezzels GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/brezzels-gmbh/senior-marketing-manager-seligenstadt-332248",
+      "location": "Seligenstadt",
+      "logo": "https://ui-avatars.com/api/?name=Brezzels%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "018e631368a3647867a0ac53",
+      "createdAt": "2026-10-21T13:14:07.130Z",
+      "updatedAt": "2026-10-21T13:14:07.130Z"
+    },
+    {
+      "name": "Solarize",
+      "description": "Official company page for Solarize",
+      "website": "https://www.arbeitnow.com/jobs/companies/solarize/senior-sales-manager-account-executive-vollzeit-oder-teilzeit-ab-80-stuttgart-412023",
+      "location": "Stuttgart",
+      "logo": "https://ui-avatars.com/api/?name=Solarize&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "45583195be10c116d3383a6d",
+      "createdAt": "2026-10-21T13:14:07.131Z",
+      "updatedAt": "2026-10-21T13:14:07.131Z"
+    },
+    {
+      "name": "TradeLink",
+      "description": "Official company page for TradeLink",
+      "website": "https://www.arbeitnow.com/jobs/companies/tradelink/founders-associate-operations-ai-all-genders-munich-263201",
+      "location": "Munich",
+      "logo": "https://ui-avatars.com/api/?name=TradeLink&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "6b8a14e4dc7bfe231c068317",
+      "createdAt": "2026-10-21T13:14:07.132Z",
+      "updatedAt": "2026-10-21T13:14:07.132Z"
+    },
+    {
+      "name": "Wolf Personalmanagement GmbH",
+      "description": "Official company page for Wolf Personalmanagement GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/wolf-personalmanagement-gmbh/interim-manager-abteilungsleitung-personalservice-kronberg-176972",
+      "location": "Kronberg",
+      "logo": "https://ui-avatars.com/api/?name=Wolf%20Personalmanagement%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "691ff205e823f2bc4ead5328",
+      "createdAt": "2026-10-21T13:14:07.134Z",
+      "updatedAt": "2026-10-21T13:14:07.134Z"
+    },
+    {
+      "name": "Picmondoo GmbH",
+      "description": "Official company page for Picmondoo GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/picmondoo-gmbh/social-media-manager-fur-malen-nach-zahlen-langweid-am-lech-370443",
+      "location": "Langweid am Lech",
+      "logo": "https://ui-avatars.com/api/?name=Picmondoo%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "a3c8e47ccaad9b92053a405b",
+      "createdAt": "2026-10-21T13:14:07.137Z",
+      "updatedAt": "2026-10-21T13:14:07.137Z"
+    },
+    {
+      "name": "Sattler Media GmbH",
+      "description": "Official company page for Sattler Media GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/sattler-media-gmbh/personalsachbearbeiter-entgeltabrechnung-barleben-343094",
+      "location": "Barleben",
+      "logo": "https://ui-avatars.com/api/?name=Sattler%20Media%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "47e763232502452074a8f3c7",
+      "createdAt": "2026-10-21T13:14:07.138Z",
+      "updatedAt": "2026-10-21T13:14:07.138Z"
+    },
+    {
+      "name": "REPLUG",
+      "description": "Official company page for REPLUG",
+      "website": "https://www.arbeitnow.com/jobs/companies/replug/demand-generation-marketing-manager-berlin-362792",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=REPLUG&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "39cbea91fca5b872cf3e979d",
+      "createdAt": "2026-10-21T13:14:07.144Z",
+      "updatedAt": "2026-10-21T13:14:07.144Z"
+    },
+    {
+      "name": "mi.ro Personalvermittlung",
+      "description": "Official company page for mi.ro Personalvermittlung",
+      "website": "https://www.arbeitnow.com/jobs/companies/miro-personalvermittlung/microsoft-principle-project-manager-berlin-312463",
+      "location": "Berlin",
+      "logo": "https://ui-avatars.com/api/?name=mi.ro%20Personalvermittlung&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "b1c22821fefa6d06cb582de5",
+      "createdAt": "2026-10-21T13:14:07.145Z",
+      "updatedAt": "2026-10-21T13:14:07.145Z"
+    },
+    {
+      "name": "Vivalyx GmbH",
+      "description": "Official company page for Vivalyx GmbH",
+      "website": "https://www.arbeitnow.com/jobs/companies/vivalyx-gmbh/head-of-regulatory-and-prrc-for-a-core-product-incl-project-management-cologne-253461",
+      "location": "Cologne",
+      "logo": "https://ui-avatars.com/api/?name=Vivalyx%20GmbH&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "66238d3ae6cbba700f7405c7",
+      "createdAt": "2026-10-21T13:14:07.146Z",
+      "updatedAt": "2026-10-21T13:14:07.146Z"
+    },
+    {
+      "name": "AYLASHES",
+      "description": "Official company page for AYLASHES",
+      "website": "https://www.arbeitnow.com/jobs/companies/aylashes/tiktok-livestreamer-pleidelsheim-352811",
+      "location": "Pleidelsheim",
+      "logo": "https://ui-avatars.com/api/?name=AYLASHES&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "a35b9b597c963ed1efc16572",
+      "createdAt": "2026-10-21T13:14:07.148Z",
+      "updatedAt": "2026-10-21T13:14:07.148Z"
+    },
+    {
+      "name": "Wealth Collect",
+      "description": "Official company page for Wealth Collect",
+      "website": "https://www.arbeitnow.com/jobs/companies/wealth-collect/business-development-project-manager-green-energy-industrial-services-nuremberg-102743",
+      "location": "Nuremberg",
+      "logo": "https://ui-avatars.com/api/?name=Wealth%20Collect&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "5c1c8acdcbd229b7a2718e1d",
+      "createdAt": "2026-10-21T13:14:07.149Z",
+      "updatedAt": "2026-10-21T13:14:07.149Z"
+    },
+    {
+      "name": "Kellermann Lighting GmbH &Co. KG",
+      "description": "Official company page for Kellermann Lighting GmbH &Co. KG",
+      "website": "https://www.arbeitnow.com/jobs/companies/kellermann-lighting-gmbh-co-kg/produktentwickler-entwicklungsingenieur-wurselen-322791",
+      "location": "Würselen",
+      "logo": "https://ui-avatars.com/api/?name=Kellermann%20Lighting%20GmbH%20%26Co.%20KG&background=6A38C2&color=fff&size=128",
+      "userId": "e51c051f5c9e369aab728528",
+      "_id": "1293c8490821c952487f6944",
+      "createdAt": "2026-10-21T13:14:07.150Z",
+      "updatedAt": "2026-10-21T13:14:07.150Z"
+    }
+  ],
+  "jobs": [
+    {
+      "_id": "2f30b42514d5b425700cdbfc",
+      "title": "Senior User Acquisition Manager, Paid Social Ads",
+      "description": "About Us Ruby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story&hellip;",
+      "requirements": [
+        "Marketing & Sales"
+      ],
+      "salary": 80000,
+      "location": "Europe",
+      "jobType": [
+        "Contract"
+      ],
+      "experienceLevel": 5,
+      "position": 1,
+      "company": "e3f08904884dc19630b70034",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156150-senior-user-acquisition-manager-paid-social-ads"
+    },
+    {
+      "_id": "01929af29e664a5a622b2ea8",
+      "title": "Director, Text-to-Speech Synthesis Research",
+      "description": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack&hellip;",
+      "requirements": [
+        "Data Science & Analytics"
+      ],
+      "salary": 62000,
+      "location": "UK",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "4b776f826a05d987f8320eb6",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156157-director-text-to-speech-synthesis-research"
+    },
+    {
+      "_id": "73ca4a9434240986999b78e2",
+      "title": "Commercial Account Executive, DACH",
+      "description": "Algolia is the retrieval intelligence layer that turns intent into trusted, decision-grade outcomes. Powering more than 1.7 trillion queries a year for over 18,000 customers with millisecond latency and 99.999% reliability, we are the recognized leader for Search and Product Discovery by top industry analyst firms. The Algolia platform turns a company's products, content, and&hellip;",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 120000,
+      "location": "Germany",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "e034a2bd280eafc162ec93c6",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156154-commercial-account-executive-dach"
+    },
+    {
+      "_id": "fa0fff6ccf7ff16c470bdef0",
+      "title": "Senior Solutions Architect - Europe",
+      "description": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack&hellip;",
+      "requirements": [
+        "Technical Support"
+      ],
+      "salary": 68000,
+      "location": "Austria,  Germany,  Ireland,  Netherlands,  Spain,  Switzerland,  UK",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "4b776f826a05d987f8320eb6",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156157-director-text-to-speech-synthesis-research"
+    },
+    {
+      "_id": "d5895e6b3a36567299a2b10a",
+      "title": "Senior Commercial Counsel",
+      "description": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack&hellip;",
+      "requirements": [
+        "Legal & Compliance"
+      ],
+      "salary": 61000,
+      "location": "Ireland,  UK",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 5,
+      "position": 1,
+      "company": "4b776f826a05d987f8320eb6",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156157-director-text-to-speech-synthesis-research"
+    },
+    {
+      "_id": "97040440af6629cbefce4be2",
+      "title": "GM, Sales (EMEA)",
+      "description": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack&hellip;",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 76000,
+      "location": "UK",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "4b776f826a05d987f8320eb6",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156157-director-text-to-speech-synthesis-research"
+    },
+    {
+      "_id": "da71fcb9c88abbb21a49faa9",
+      "title": "Product Manager - 4 Day Week + Remote",
+      "description": "Do you know what product management is really about? If you do, then you know it isn't roadmaps, tickets or beautifully groomed backlogs. It's finding a real, expensive, unglamorous problem that people live with every day - and shipping something that makes it go away. That is product. At Shape Construction, we are building software&hellip;",
+      "requirements": [
+        "Product & Operations"
+      ],
+      "salary": 69000,
+      "location": "Poland,  Portugal",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "885c038b8ad7a7924c90f52c",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156149-product-manager-4-day-week-remote-2"
+    },
+    {
+      "_id": "8a45dc95cfebedce2b4e56fd",
+      "title": "Customer Success Engineer ( London)",
+      "description": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack&hellip;",
+      "requirements": [
+        "Customer Support & Success"
+      ],
+      "salary": 74000,
+      "location": "UK",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "4b776f826a05d987f8320eb6",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156157-director-text-to-speech-synthesis-research"
+    },
+    {
+      "_id": "d68340528ef84fd7a54174e4",
+      "title": "Stagiaire Opérations Titres (f/h/d)",
+      "description": "À propos de nous Chez Upvest, notre mission est de rendre l’investissement aussi simple que dépenser de l’argent. Upvest permet aux entreprises de proposer une large gamme de produits d’investissement et la meilleure expérience en matière d’investissement sur les marchés de capitaux et d’épargne retraite. Notre Investment API s’intègre facilement, pour que les fintechs et&hellip;",
+      "requirements": [
+        "Finance & Accounting"
+      ],
+      "salary": 98000,
+      "location": "France,  Germany",
+      "jobType": [
+        "Internship"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "c048ea4a18aa3e3a75344123",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156142-stagiaire-operations-titres-f-h-d"
+    },
+    {
+      "_id": "8db51faf859c8def0005365b",
+      "title": "Senior All-Source Investigator, Severe Harms",
+      "description": "Build a Safer World. TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure. About&hellip;",
+      "requirements": [
+        "Cybersecurity"
+      ],
+      "salary": 120000,
+      "location": "UK,  USA",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 5,
+      "position": 1,
+      "company": "5d414ae61106d7a383f9c8e1",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156139-senior-all-source-investigator-severe-harms"
+    },
+    {
+      "_id": "d79f23dbbf02979ad939d3af",
+      "title": "Content Marketing Lead, Insights",
+      "description": "Build a Safer World. TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure. TRM&hellip;",
+      "requirements": [
+        "Content & Editorial"
+      ],
+      "salary": 140000,
+      "location": "UK,  USA",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "5d414ae61106d7a383f9c8e1",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156139-senior-all-source-investigator-severe-harms"
+    },
+    {
+      "_id": "a166bfa2863dcfdf7d6ccdb0",
+      "title": "IT Specialist",
+      "description": "Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk. Our customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI,&hellip;",
+      "requirements": [
+        "Technical Support"
+      ],
+      "salary": 47501,
+      "location": "UK",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 5,
+      "position": 1,
+      "company": "a4fcb9faf1704cca0ad15b9b",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applications": [],
+      "createdAt": "2026-10-21T12:49:27.005Z",
+      "updatedAt": "2026-10-21T12:49:27.005Z",
+      "applyUrl": "https://jobicy.com/jobs/156145-it-specialist"
+    },
+    {
+      "title": "Sales Manager - Southeast Asia",
+      "description": "StackAdapt is the leading technology company that empowers marketers to reach, engage, and convert audiences with precision. With 465 billion automated optimizations per second, the AI-powered StackAdapt Marketing Platform seamlessly connects brand and performance marketing to drive measurable results across the entire customer journey. The most forward-thinking marketers choose StackAdapt to orchestrate high-impact campaigns across&hellip;",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 105179,
+      "location": "Malaysia,  Singapore",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "acca6988e145443341452ea3",
+      "created_by": "e51c051f5c9e369aab728528",
+      "_id": "bdeb7e3942aa372cecd002d8",
+      "createdAt": "2026-10-21T12:50:31.404Z",
+      "updatedAt": "2026-10-21T12:50:31.404Z",
+      "applyUrl": "https://jobicy.com/jobs/156137-sales-manager-southeast-asia"
+    },
+    {
+      "title": "Senior Detection Engineering & Threat Hunting Analyst",
+      "description": "What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber&hellip;",
+      "requirements": [
+        "Cybersecurity"
+      ],
+      "salary": 150000,
+      "location": "Australia",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 5,
+      "position": 1,
+      "company": "5d54862506015e0ff5b8218c",
+      "created_by": "e51c051f5c9e369aab728528",
+      "_id": "73b7a790f57f57f2b3507a81",
+      "createdAt": "2026-10-21T12:50:31.405Z",
+      "updatedAt": "2026-10-21T12:50:31.405Z",
+      "applyUrl": "https://jobicy.com/jobs/156136-senior-detection-engineering-threat-hunting-analyst"
+    },
+    {
+      "title": "Sales Manager / Senior Sales Manager – Japan",
+      "description": "StackAdapt is the leading technology company that empowers marketers to reach, engage, and convert audiences with precision. With 465 billion automated optimizations per second, the AI-powered StackAdapt Marketing Platform seamlessly connects brand and performance marketing to drive measurable results across the entire customer journey. The most forward-thinking marketers choose StackAdapt to orchestrate high-impact campaigns across&hellip;",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 13456800,
+      "location": "Japan",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "acca6988e145443341452ea3",
+      "created_by": "e51c051f5c9e369aab728528",
+      "_id": "b98eaca064f40479139a92a9",
+      "createdAt": "2026-10-21T12:50:31.406Z",
+      "updatedAt": "2026-10-21T12:50:31.406Z",
+      "applyUrl": "https://jobicy.com/jobs/156137-sales-manager-southeast-asia"
+    },
+    {
+      "title": "Programmatic Account Manager",
+      "description": "StackAdapt is the leading technology company that empowers marketers to reach, engage, and convert audiences with precision. With 465 billion automated optimizations per second, the AI-powered StackAdapt Marketing Platform seamlessly connects brand and performance marketing to drive measurable results across the entire customer journey. The most forward-thinking marketers choose StackAdapt to orchestrate high-impact campaigns across&hellip;",
+      "requirements": [
+        "Customer Support & Success"
+      ],
+      "salary": 100606,
+      "location": "Singapore",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 5,
+      "position": 1,
+      "company": "acca6988e145443341452ea3",
+      "created_by": "e51c051f5c9e369aab728528",
+      "_id": "5f84ad536ebf64734b8adb39",
+      "createdAt": "2026-10-21T12:50:31.406Z",
+      "updatedAt": "2026-10-21T12:55:54.622Z",
+      "applications": [
+        "c168f1baf9daf975b89c7c34"
+      ],
+      "applyUrl": "https://jobicy.com/jobs/156137-sales-manager-southeast-asia"
+    },
+    {
+      "title": "Reseller Sales Manager",
+      "description": "What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber&hellip;",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 89000,
+      "location": "Australia",
+      "jobType": [
+        "Full-Time"
+      ],
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "5d54862506015e0ff5b8218c",
+      "created_by": "e51c051f5c9e369aab728528",
+      "_id": "be9cac9c0d8f8d4a9f200db7",
+      "createdAt": "2026-10-21T12:50:31.406Z",
+      "updatedAt": "2026-10-21T12:52:27.606Z",
+      "applications": [
+        "4510b3e91c0af72a95dcc763"
+      ],
+      "applyUrl": "https://jobicy.com/jobs/156136-senior-detection-engineering-threat-hunting-analyst"
+    },
+    {
+      "title": "Junior HR Business Partner (m/w/d) in Teil- oder Vollzeit",
+      "description": " Die allaboutHRLaw GmbH ist ein erfahrenes Beratungsunternehmen für professionelle und praxisnahe Personalarbeit. Als HR as a Service-Partner unterstützen wir Unternehmen unterschiedlicher Größen und Branchen, insbesondere Start-ups sowie kleine und mittelständische Unternehmen (KMU) bei ihren personalwirtschaftlichen Herausforderungen – flexibel, individuell und bedarfsgerecht. Ob vollständige Übernahme der Personalarbeit, Unterstützung bei einz...",
+      "requirements": [
+        "Personnel Specialist"
+      ],
+      "salary": 85000,
+      "location": "Cologne",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "be6bb55d802d9dcb012978a1",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/allabouthrlaw-gmbh/junior-hr-business-partner-in-teil-oder-vollzeit-cologne-189594",
+      "_id": "59ff59f2b397fe9cfff8c49b",
+      "createdAt": "2026-10-21T13:14:07.096Z",
+      "updatedAt": "2026-10-21T13:14:07.096Z"
+    },
+    {
+      "title": "SaaS Software Sales Manager Region Süd (m/w/d) - Full Remote",
+      "description": " Du suchst einen sicheren Job als SaaS Software Sales Manager (w/m/d) für den Bereich ECM/DMS in Vollzeit und mit bis zu 100% Remote-Anteil? Möchtest du ein attraktives Gehaltspaket mit verlässlichem Fixum, ungedeckelter Provision plus Firmenwagen? Suchst du ein etabliertes, krisenfestes Unternehmensumfeld mit gelebtem Teamgeist und viel Freiraum für deine persönliche Weiterentwicklung? Das bieten wir dir schon ab dem Erstgespräch mit uns: Gratis...",
+      "requirements": [
+        "Remote",
+        "Management",
+        "Team Leader"
+      ],
+      "salary": 88000,
+      "location": "Berlin",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "8e2f1f3b1bb10fa4f173531e",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/dwwa-personalberatung-gmbh/saas-software-sales-manager-region-sud-full-remote-berlin-273863",
+      "_id": "836a1208e6c246cc248def0b",
+      "createdAt": "2026-10-21T13:14:07.099Z",
+      "updatedAt": "2026-10-21T13:14:07.099Z"
+    },
+    {
+      "title": "Senior SAP WM / HU Consultant - Freelance",
+      "description": " Für ein langfristiges SAP-Projekt bei einem Unternehmen aus der Automobilzulieferindustrie suchen wir einen erfahrenen Senior SAP WM / HU Consultant (Freelance). Im Mittelpunkt des Projekts steht der Aufbau eines gemeinsamen HU-WM-Cores für mehrere Standorte. Ziel ist es, standortspezifische Anforderungen weitestgehend über Parameter und standardisierte Prozesse abzubilden. Individuelle Entwicklungen sollen nur dort eingesetzt werden, wo ein fac...",
+      "requirements": [
+        "Remote",
+        "SAP/ERP Consulting",
+        "Development"
+      ],
+      "salary": 100000,
+      "location": "Berlin",
+      "jobType": "Freiberufler / selbstständiger",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "2af65e5a9ab832846fb8fe84",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-sap-wm-hu-consultant-freelance-berlin-175333",
+      "_id": "93bba63305ce2a07a8e23e60",
+      "createdAt": "2026-10-21T13:14:07.100Z",
+      "updatedAt": "2026-10-21T13:14:07.100Z"
+    },
+    {
+      "title": "Werkstudent (m/w/d) Digital Design / UI-Design",
+      "description": " Bielefeld · 15–20 Stunden/Woche · 18–22 €/Stunde · Überwiegend vor Ort Du studierst Design und möchtest endlich an Projekten arbeiten, die tatsächlich umgesetzt werden? Du hast ein gutes Auge für Typografie, Farben und Layouts, liebst sorgfältig gestaltete digitale Oberflächen und möchtest dein Können in der Praxis weiterentwickeln? Dann sollten wir uns kennenlernen. Wir sind die Digitale Offensive , eine kleine, inhabergeführte Digitalagentur i...",
+      "requirements": [
+        "Media",
+        "Screen and Web Design"
+      ],
+      "salary": 100000,
+      "location": "Bielefeld",
+      "jobType": "Werkstudent",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "13fdfc147badb5f9fc8dfb80",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/digitale-offensive-gmbh/werkstudent-digital-design-ui-design-bielefeld-166483",
+      "_id": "a5e3c575fbac4ca8ca7a3840",
+      "createdAt": "2026-10-21T13:14:07.101Z",
+      "updatedAt": "2026-10-21T13:14:07.101Z"
+    },
+    {
+      "title": "Enterprise Account Executive",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;Our Purpose&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect global enterprises, critical infrastruct...",
+      "requirements": [
+        "43600 Enterprise Sales - EMEA"
+      ],
+      "salary": 102000,
+      "location": "Europe",
+      "jobType": "Full-time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "aa0f726cefc0043b0bfb47b9",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sentinellabs/enterprise-account-executive-137350",
+      "_id": "eb36692fc0e03a1ea17a8395",
+      "createdAt": "2026-10-21T13:14:07.102Z",
+      "updatedAt": "2026-10-21T13:14:07.102Z"
+    },
+    {
+      "title": "Enterprise Account Executive, DACH",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management.&amp;nbsp;&lt;/p&gt; &lt;p&gt;We’ve got serious momentum in the market: more than ...",
+      "requirements": [
+        "International"
+      ],
+      "salary": 92000,
+      "location": "Europe",
+      "jobType": "Full-time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "b08bd7dc2529ecc6810cbcca",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/verkada/enterprise-account-executive-dach-187737",
+      "_id": "e78ae353d260d8e85dd7ac47",
+      "createdAt": "2026-10-21T13:14:07.103Z",
+      "updatedAt": "2026-10-21T13:14:07.103Z"
+    },
+    {
+      "title": "Senior Account Executive, Growth DACH",
+      "description": " Role Summary Temporal is shaping the future of application development by enabling organisations to build, scale, and run resilient applications. We are seeking a highly skilled and experienced Senior Enterprise Account Executive to join our Growth team and drive revenue within some of the largest and most complex enterprise organisations within Central EMEA. In this role, you will own a small portfolio of named accounts, selling to highly techn...",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 105000,
+      "location": "Germany (Remote)",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "747fa68d8fa81890b929b475",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/temporal-technologies/remote-senior-account-executive-growth-dach-10537",
+      "_id": "8744801ecaadfa16588f92ca",
+      "createdAt": "2026-10-21T13:14:07.104Z",
+      "updatedAt": "2026-10-21T13:14:07.104Z"
+    },
+    {
+      "title": "Customer Success Intern (m/f/d)",
+      "description": " Start: 01. Januar 2027 AI has changed how office workers get things done. For the 80% of the global workforce that doesn't sit at a desk, it has barely arrived. Flip AI is changing that. Flip AI is the #1 Frontline Agentic Operating System (OS) to build, automate, and orchestrate any frontline use case on a foundation of secure identity and comms with strong UX. In practice, that means one app where frontline workers in retail, manufacturing and...",
+      "requirements": [
+        "Customer Delivery"
+      ],
+      "salary": 99000,
+      "location": "Stuttgart & Remote",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "8f41d920c42893c2a7dbe98a",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/flip-gmbh/customer-success-intern-stuttgart-490718",
+      "_id": "245ba37c524142bf0d69fc48",
+      "createdAt": "2026-10-21T13:14:07.104Z",
+      "updatedAt": "2026-10-21T13:14:07.104Z"
+    },
+    {
+      "title": "Praktikum Customer Success (m/w/d)",
+      "description": " Start: 01. Januar 2027 KI hat verändert, wie Büroangestellte arbeiten. Bei den 80 % der weltweiten Belegschaft , die nicht am Schreibtisch sitzen, ist sie bisher kaum angekommen. Flip AI ändert das. Flip AI ist das #1 Frontline Agentic Operating System (OS) , mit dem sich jeder Anwendungsfall für Frontline-Teams aufbauen, automatisieren und orchestrieren lässt, auf einem Fundament aus sicherer Identität, Kommunikation und starker UX. In der Prax...",
+      "requirements": [
+        "Customer Delivery"
+      ],
+      "salary": 78000,
+      "location": "Stuttgart & Remote",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "8f41d920c42893c2a7dbe98a",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/flip-gmbh/praktikum-customer-success-stuttgart-370464",
+      "_id": "55412ba4cc9cb00b8f9527bd",
+      "createdAt": "2026-10-21T13:14:07.105Z",
+      "updatedAt": "2026-10-21T13:14:07.105Z"
+    },
+    {
+      "title": "UAV Software and Controls Engineer",
+      "description": " 🚀 Join SE3 Labs as UAV Software and Controls Engineer Lead the autonomy stack of our systems. Starting from custom firmware all the way to GCS plugins. About SE3 SE3 Labs is building Spatial AI by combining 3D computer vision with large language models (LLMs). We believe the ability to reason about and act within physical space is foundational to unlocking the next generation of automation, from construction to smart infrastructure, and ultimat...",
+      "requirements": [
+        "Software"
+      ],
+      "salary": 77000,
+      "location": "Munich",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "64cebfb9679431b1c7eeb6b7",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/se3/uav-software-and-controls-engineer-munich-102074",
+      "_id": "f085dc0d8d6a9d9d9a67d7e2",
+      "createdAt": "2026-10-21T13:14:07.105Z",
+      "updatedAt": "2026-10-21T13:14:07.105Z"
+    },
+    {
+      "title": "IT Support Technician",
+      "description": " As an IT Support Technician for the applike group, you will keep our office infrastructure and tech setup running smoothly by supporting 500+ workstations in Hamburg and increasingly all around the world. The applike group is committed to creating engaging experiences for every app user around the world. We are passionate about creating market-changing products, technologies, and companies. We have already founded 4 companies. Our ventures are i...",
+      "requirements": [
+        "applike group"
+      ],
+      "salary": 77000,
+      "location": "Hamburg",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "6f9d5e8af2a13b93fa3344f3",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/applike-group/it-support-technician-hamburg-36477",
+      "_id": "cb3282201fd0127a69f75104",
+      "createdAt": "2026-10-21T13:14:07.106Z",
+      "updatedAt": "2026-10-21T13:14:07.106Z"
+    },
+    {
+      "title": "Senior People Business Partner - EMEA",
+      "description": " Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the digital infrastructure needed to bring intelligence to every moving machine on the planet. Applied Intuition services the automotive, defense, trucking, construction, mining and agriculture industries in three core areas: tools and infrastructure, operating systems, and autonomy. Eighteen of the...",
+      "requirements": [
+        "People"
+      ],
+      "salary": 107000,
+      "location": "Munich",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "d2f5d2907259cc4979fec178",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/applied/senior-people-business-partner-emea-munchen-196461",
+      "_id": "e873d3d5ff5cdf6f3e36e114",
+      "createdAt": "2026-10-21T13:14:07.107Z",
+      "updatedAt": "2026-10-21T13:14:07.107Z"
+    },
+    {
+      "title": "Founder’s Associate",
+      "description": " 🏢 Who we are A team from Germany with the vision to make advanced network security accessible for everyone We are a software company developing an open source zero-trust network security platform that is both easy to use and affordable for teams of all sizes and budgets. Our mission is grounded in a simple yet powerful belief: secure private networking is a fundamental right of every modern company. Since our launch on GitHub in 2021, we have g...",
+      "requirements": [
+        "GTM"
+      ],
+      "salary": 68000,
+      "location": "Berlin",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "f81a83c160e18fd37f6598a1",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/netbird/founders-associate-berlin-123488",
+      "_id": "e364743f211e56704912e066",
+      "createdAt": "2026-10-21T13:14:07.107Z",
+      "updatedAt": "2026-10-21T13:14:07.107Z"
+    },
+    {
+      "title": "HSE Officer / Interne Fachkraft für Arbeitssicherheit (all genders)",
+      "description": " Your Mission: Be part of aviation history at VÆRIDION, where we’re pioneering the world’s first electric nine-seater aircraft! As an Health, Safety &amp; Environmental (HSE) Officer (all genders), you will play a key role in ensuring a safe, compliant, and high-performing environment across our manufacturing and test facilities. You will help establish and continuously improve the health, safety, and environmental framework supporting the produc...",
+      "requirements": [
+        "Engineering"
+      ],
+      "salary": 74000,
+      "location": "Manufacturing & Testing Facility",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "7c6881255bdebb6a436bbada",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/vaeridion/hse-officer-interne-fachkraft-fur-arbeitssicherheit-all-genders-munich-163857",
+      "_id": "37037376815a4f2f1b4a3ef8",
+      "createdAt": "2026-10-21T13:14:07.108Z",
+      "updatedAt": "2026-10-21T13:14:07.108Z"
+    },
+    {
+      "title": "Enterprise Field Engineer - Pre-sales - Southeast (Atlanta)",
+      "description": " About CodeRabbit CodeRabbit is the leading AI code review platform, trusted by more than 17,000 customers and 150,000 open-source projects, conducting over 2 million code reviews each week. We build the symbiotic partnership between developers and AI that makes shipping fast software safe again, reviewing every pull request, IDE change, and CLI commit so teams can move quickly without breaking things. We are a fast-moving, well-funded company, f...",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 106000,
+      "location": "remote",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "6e525fc1a03c647720acc90e",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/coderabbit/remote-enterprise-field-engineer-pre-sales-southeast-atlanta-82243",
+      "_id": "c72bd28b59263205bb9b117a",
+      "createdAt": "2026-10-21T13:14:07.109Z",
+      "updatedAt": "2026-10-21T13:14:07.109Z"
+    },
+    {
+      "title": "Sales Development Representative (F/M/*)",
+      "description": " Aus Europa, für Europa – Wir bauen Europas Business-KI. Wir sind amber, eines der am schnellsten wachsenden KI-Startups aus Deutschland. KMUs profitieren davon, wenn internes Wissen sofort nutzbar wird und intelligente Agenten darauf reagieren können. Wir glauben an eine Zukunft, in der Business-KI, einschließlich Agenten, innerhalb von amber und anderen Plattformen, auf einer gemeinsamen Kontextschicht arbeitet, sodass Teams schneller arbeiten,...",
+      "requirements": [
+        "Sales"
+      ],
+      "salary": 77000,
+      "location": "Köln",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "944609843244a89808177934",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/amber/sales-development-representative-f-m-koln-349685",
+      "_id": "dbbf41c30a5d2d6567ca0197",
+      "createdAt": "2026-10-21T13:14:07.110Z",
+      "updatedAt": "2026-10-21T13:14:07.110Z"
+    },
+    {
+      "title": "DevOps Engineer (F/M/*)",
+      "description": " Aus Europa, für Europa - wir entwickeln Europas Business-KI. Wir sind das größte KI-Start-up in Aachen. KMUs profitieren davon, wenn internes Wissen sofort nutzbar wird und intelligente Agenten darauf reagieren können. Wir glauben an eine Zukunft, in der Business-KI, einschließlich Agenten innerhalb von amber und anderen Plattformen, auf einer gemeinsamen Kontextschicht arbeitet, sodass Teams schneller arbeiten, Übergaben nahtlos erfolgen und da...",
+      "requirements": [
+        "Tech"
+      ],
+      "salary": 105000,
+      "location": "Aachen",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "944609843244a89808177934",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/amber/devops-engineer-f-m-aachen-382021",
+      "_id": "fc8c661c059e8953f44d9251",
+      "createdAt": "2026-10-21T13:14:07.110Z",
+      "updatedAt": "2026-10-21T13:14:07.110Z"
+    },
+    {
+      "title": "Werkstudent Marketing (F/M/*)",
+      "description": " Aus Europa, für Europa – Wir bauen Europas Business-KI. Wir sind amber, eines der am schnellsten wachsenden KI-Startups aus Deutschland. KMUs profitieren davon, wenn internes Wissen sofort nutzbar wird und intelligente Agenten darauf reagieren können. Wir glauben an eine Zukunft, in der Business-KI, einschließlich Agenten, innerhalb von amber und anderen Plattformen, auf einer gemeinsamen Kontextschicht arbeitet, sodass Teams schneller arbeiten,...",
+      "requirements": [
+        "Marketing"
+      ],
+      "salary": 88000,
+      "location": "Köln",
+      "jobType": "Full Time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "944609843244a89808177934",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/amber/werkstudent-marketing-f-m-koln-112248",
+      "_id": "0bc406a1fb1991c4910e7e6b",
+      "createdAt": "2026-10-21T13:14:07.110Z",
+      "updatedAt": "2026-10-21T13:14:07.110Z"
+    },
+    {
+      "title": "Senior Microsoft 365 Engineer (m/w/d)- Multi-Tenant & Automatisierung",
+      "description": " Du hast beim MSP mehr Tenants betreut, als Du zählen kannst, und nie die saubere Baseline bauen dürfen, weil immer das nächste Ticket kam. Hier baust Du sie. Von Grund auf, nach Deinem Standard, mit Automatisierung als Kern. Darum gibt es diese Stelle Neurawork ist eine Beratung für Operational AI in Oberbayern. Um uns herum ist eine Gruppe mit rund 50 Nutzern in mehreren Gesellschaften gewachsen. Das Konzept steht: ein Tenant pro Gesellschaft, ...",
+      "requirements": [
+        "Remote",
+        "System and Network Administration"
+      ],
+      "salary": 95000,
+      "location": "Berlin",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "e5f4ad84f06eca26f89e3844",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/neurawork-gmbh-co-kg/senior-microsoft-365-engineer-multi-tenant-automatisierung-berlin-52350",
+      "_id": "94fb2cebe7b3660ef6894fa9",
+      "createdAt": "2026-10-21T13:14:07.111Z",
+      "updatedAt": "2026-10-21T13:14:07.111Z"
+    },
+    {
+      "title": "Ausbildung zum Fachinformatiker für Systemintegration (m|w|d) 2027",
+      "description": " Technik begeistert dich? Dann bring mit uns die IT zum Laufen! Du möchtest wissen, wie Netzwerke funktionieren, wie man Server einrichtet und warum ein Rechner manchmal einfach nicht das macht, was er soll? Du tüftelst gerne und hast Lust, technischen Problemen auf den Grund zu gehen? Dann starte deine Ausbildung bei DriveCon! Bei uns lernst du Schritt für Schritt, wie aus einzelnen Geräten, Anwendungen und Netzwerken eine zuverlässige IT-Umgebu...",
+      "requirements": [
+        "System and Network Administration"
+      ],
+      "salary": 89000,
+      "location": "Dettelbach",
+      "jobType": "Ausbildung",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "36d0154c01c2ee196b392cee",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/drivecon-gmbh/ausbildung-zum-fachinformatiker-fur-systemintegration-mwd-2027-dettelbach-405949",
+      "_id": "897e2ca15cbe908b31761a92",
+      "createdAt": "2026-10-21T13:14:07.112Z",
+      "updatedAt": "2026-10-21T13:14:07.112Z"
+    },
+    {
+      "title": "Telef. Kundenberater [m/w/d] Minijob",
+      "description": " Beutler Saghari & Partner ist auf die telefonische Direktansprache (Headhunting) spezialisiert. Immer dann, wenn klassische Recruiting-Strategien an ihre Grenzen stoßen, verbinden wir herausragende Talente mit führenden Unternehmen. Zur Verstärkung unseres Sales-Team suchen wir für 3 Tage/ Woche (Die. - Do.) für die Vormittagszeit eine engagierte Persönlichkeit als Kundenberater (m/w/d) – Minijob (teilweise Homeoffice möglich) Aufgaben Kundengew...",
+      "requirements": [
+        "Customer Service"
+      ],
+      "salary": 97000,
+      "location": "Iserlohn",
+      "jobType": "Minijob (geringfügige beschäftigung)",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "5cee0d98183e3d4da27301e8",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/beutler-saghari-partner-gmbh/telef-kundenberater-minijob-iserlohn-423924",
+      "_id": "621fbfcaedfb0f767b18a1ff",
+      "createdAt": "2026-10-21T13:14:07.113Z",
+      "updatedAt": "2026-10-21T13:14:07.113Z"
+    },
+    {
+      "title": "Tech StartUp - Customer Success Agent (m/w/d) - Waterflow Agent",
+      "description": " Du redest gern mit Menschen? Dann rede mit unseren. Bei Enzo verhindern wir Wasserschäden, bevor sie entstehen. Unsere smarten Wassersensoren und unsere KI-Plattform one.drop schützen Haushalte in ganz Deutschland - gemeinsam mit führenden Versicherungen in Deutschland. Damit das funktioniert, braucht jede:r Kund:in jemanden, der sie an die Hand nimmt: vom Auspacken des Sensors bis zum Moment, in dem er zum ersten Mal einen Wasserfluss meldet. D...",
+      "requirements": [
+        "Customer Service"
+      ],
+      "salary": 87000,
+      "location": "Heidelberg",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "eebe338deca86f35d2a45ec8",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/enzo/tech-startup-customer-success-agent-waterflow-agent-heidelberg-439224",
+      "_id": "cf4dbf424aa486e160cc51b6",
+      "createdAt": "2026-10-21T13:14:07.114Z",
+      "updatedAt": "2026-10-21T13:14:07.114Z"
+    },
+    {
+      "title": "Accounting Expert: AI Model Evaluation",
+      "description": " About Huzzle Labs Huzzle Labs partners with frontier AI labs to evaluate and improve frontier models through deep human expertise. Contributors directly assess advanced AI systems in their specialist fields, receive competitive compensation, and help define the standards used to measure model performance. About the Role Huzzle Labs is seeking experienced accountants to write realistic accounting tasks that test how well frontier AI systems handl...",
+      "requirements": [
+        "Accounting/Auditing",
+        "Internet",
+        "AI Training",
+        "Remote"
+      ],
+      "salary": 88000,
+      "location": "Germany",
+      "jobType": "Contract",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "cd155b7ee29b26439d9336f7",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/huzzle/remote-accounting-expert-ai-model-evaluation-germany-30961",
+      "_id": "7b0aabfe0f2c45a64bd564d9",
+      "createdAt": "2026-10-21T13:14:07.115Z",
+      "updatedAt": "2026-10-21T13:14:07.115Z"
+    },
+    {
+      "title": "Cybersecurity Researcher",
+      "description": " Berlin • Cybersecurity &amp; AI Startup • Recently Funded A newly funded cybersecurity startup in Berlin is looking for a Cybersecurity Researcher to join as a team member and help design the core security, identity, and enforcement foundations of a next-generation AI-powered security risk management platform. We are an early-stage startup founded by experienced cybersecurity leaders with backgrounds in Israeli Intelligence units. We are looking...",
+      "requirements": [
+        "Engineering",
+        "master's degree"
+      ],
+      "salary": 94000,
+      "location": "Berlin",
+      "jobType": "Full-time permanent",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "b4bbd4ba0fddbc32442ca6bb",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/cygrid-gmbh/cybersecurity-researcher-berlin-467857",
+      "_id": "67f1802ab3add4bc20c5be3d",
+      "createdAt": "2026-10-21T13:14:07.116Z",
+      "updatedAt": "2026-10-21T13:14:07.116Z"
+    },
+    {
+      "title": "Head / Senior Director of Sales – Central Europe",
+      "description": " About Cyclomedia At Cyclomedia, our mission is to digitise the outside world with precision. Our geospatial technology turns street-level and aerial imagery into data and insights that cities, municipalities, utilities, telecom operators and infrastructure owners use to plan and run their operations more safely, efficiently and sustainably. Backed by private equity investor Volpi Capital, we operate across the Netherlands, Germany, Belgium, Pola...",
+      "requirements": [
+        "Sales",
+        "bachelor's degree"
+      ],
+      "salary": 91000,
+      "location": "Wetzlar",
+      "jobType": "Full-time permanent",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "58cf6215d2187733b7eaf315",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/cyclomedia-technology/head-senior-director-of-sales-central-europe-wetzlar-76021",
+      "_id": "e96f8688f10486ecf21bd57e",
+      "createdAt": "2026-10-21T13:14:07.117Z",
+      "updatedAt": "2026-10-21T13:14:07.117Z"
+    },
+    {
+      "title": "Principal Consultant - DACH",
+      "description": " Job Description: Our Client, a Data &amp; AI strategy and implementation firm is looking for a Senior/Principal Consultant to join their team. This role is key in the technical delivery of high-quality data management solutions for our customers. The Senior Consultant will work directly with clients, leading them through discovery, supporting design and implementation of scalable solutions. This position represents a combination of technical exp...",
+      "requirements": [
+        "External - Commercial",
+        "Remote"
+      ],
+      "salary": 67000,
+      "location": "Germany",
+      "jobType": "Full-time",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "7fbab3ab8fb16539b051f53b",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/avomind/remote-principal-consultant-dach-germany-377093",
+      "_id": "9e682806bcc24b52f6da0641",
+      "createdAt": "2026-10-21T13:14:07.118Z",
+      "updatedAt": "2026-10-21T13:14:07.118Z"
+    },
+    {
+      "title": "Partner & Channel Sales Manager • SaaS für börsennotierte AGs • Rhein-Main / BaWü (hybrid)*",
+      "description": " Du bringst die richtigen Unternehmen zusammen und entwickelst daraus erfolgreiches SaaS-Geschäft? Hier kannst du ein Partnernetzwerk aufbauen, das neue Kunden gewinnt und messbar zum Wachstum beiträgt. Du gestaltest die Channel-Sales-Strategie, gewinnst passende Partner und sorgst dafür, dass die Zusammenarbeit im Alltag funktioniert. Du kannst zusätzlich Beziehungen zu börsennotierten AGs aufbauen, denn alle Unternehmen ab SDAX aufwärts gehören...",
+      "requirements": [
+        "Business Development"
+      ],
+      "salary": 73000,
+      "location": "Frankfurt am Main",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "804c1dbfb2e61da0ac25c40c",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/ilias-vassiliou-team-headhunterdigital-recruiting-fur-digital-sales-it-ki-automation/partner-channel-sales-manager-saas-fur-borsennotierte-ags-rhein-main-bawu-hybrid-frankfurt-am-main-155234",
+      "_id": "ee45f3cb0091233872993bd8",
+      "createdAt": "2026-10-21T13:14:07.120Z",
+      "updatedAt": "2026-10-21T13:14:07.120Z"
+    },
+    {
+      "title": "(Junior) SEA Manager (m/w/d)",
+      "description": " Über CONTXT Online-Marketing GmbH Datengetriebene Werbekampagnen für Google und Social Media sind das Spezialgebiet von CONTXT Online-Marketing GmbH. Als Performance-Marketing-Agentur betreut das Unternehmen Kunden in ganz Deutschland. Wir schalten starke Ads für starke Marken Als (Junior) SEA Manager (All gender) bei CONTXT Advertising in Ober-Ramstadt betreust du Google-Ads-Kampagnen für unsere Kunden. Je nach Erfahrung auch als Mid-Level. In ...",
+      "requirements": [
+        "Online Marketing"
+      ],
+      "salary": 82000,
+      "location": "Ober-Ramstadt",
+      "jobType": "Befristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "87ada19f54e30d63a5436903",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/contxt-online-marketing-gmbh/junior-sea-manager-ober-ramstadt-220358",
+      "_id": "56bc5d7bf1ad7dabfcb7ca09",
+      "createdAt": "2026-10-21T13:14:07.121Z",
+      "updatedAt": "2026-10-21T13:14:07.121Z"
+    },
+    {
+      "title": "Werkstudent:in Office & Recruiting (m/w/d)",
+      "description": " Was macht Beilmann Marketing aus? Eine der führenden Google & YouTube Ads Agenturen in Europa mit einem glasklaren Fokus: Wir implementieren Google & YouTube Ads als Growth Engine für internationale D2C-Brands ab 5 Mio. Jahresumsatz. Dabei arbeiten wir mit TOP-D2C-Brands wie Loop Earplugs, ahead, bedrop und ofinto zusammen. Will heißen: Wir betreuen die Google Ads Accounts der ganz großen Player mit teilweise Millionen Budget pro Monat. Dafür ha...",
+      "requirements": [
+        "HR"
+      ],
+      "salary": 81000,
+      "location": "Mannheim",
+      "jobType": "Werkstudent",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "be36871248e05bb6e4264c0f",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/beilmann-marketing-gmbh/werkstudentin-office-recruiting-mannheim-412417",
+      "_id": "fbf9fcd2f16ca3cb0f004a50",
+      "createdAt": "2026-10-21T13:14:07.122Z",
+      "updatedAt": "2026-10-21T13:14:07.122Z"
+    },
+    {
+      "title": "Support & Kundenbetreuung (m/w/d)",
+      "description": " WIR SUCHEN DICH Support & Kundenbetreuung (m/w/d) für PC CADDIE Remote, in Voll- oder Teilzeit, nah dran an den Golfclubs Startzeiten am Samstagmorgen, der Beitragslauf im Januar, das Turnier mit 120 Teilnehmenden: Hinter all dem steckt PC CADDIE. Und wenn ein Club eine Frage hat, sind wir da. Du kennst PC CADDIE aus dem Clubsekretariat oder vom Empfang? Oder Du kommst aus dem Kundenservice und hast einen Draht zum Golfsport? Dann passt Du zu un...",
+      "requirements": [
+        "Remote",
+        "Customer Service"
+      ],
+      "salary": 66000,
+      "location": "Berlin",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "4e3cdbdbd92666b4b866b0ba",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/pc-caddie-ag/support-kundenbetreuung-berlin-449664",
+      "_id": "08362d9b64ea08675cfa51c1",
+      "createdAt": "2026-10-21T13:14:07.124Z",
+      "updatedAt": "2026-10-21T13:14:07.124Z"
+    },
+    {
+      "title": "Director IT & Digital Innovation (m/w/d)",
+      "description": " Für ein international tätiges, familiengeführtes Unternehmen aus dem industriellen Mittelstand suchen wir einen Director IT & Digital Innovation (m/w/d) in Vollzeit. In dieser Position übernimmst du die Gesamtverantwortung für die IT-, Daten- und KI-Strategie und gestaltest die digitale Weiterentwicklung des Unternehmens in enger Zusammenarbeit mit der Geschäftsführung, den Fachbereichen und internationalen Standorten. Dabei arbeitest du unter a...",
+      "requirements": [
+        "Management",
+        "Team Leader"
+      ],
+      "salary": 65000,
+      "location": "Hamm",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "e261e09295b59fe44b04f749",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/flexit-consulting-gmbh/director-it-digital-innovation-hamm-69076",
+      "_id": "5a2a0d956e525848b197ccc3",
+      "createdAt": "2026-10-21T13:14:07.125Z",
+      "updatedAt": "2026-10-21T13:14:07.125Z"
+    },
+    {
+      "title": "Projektingenieur (m/w/d)",
+      "description": " Entwickle Bauteile, die fliegen, Rennen gewinnen und den härtesten Bedingungen standhalten Projektingenieur (m/w/d) Du möchtest an Projekten arbeiten, die höchsten technischen Ansprüchen gerecht werden? Bei Composite Impulse entwickelst Du innovative Composite-Bauteile für die Luft- und Raumfahrt, den Motorsport und die maritime Industrie – von der ersten Idee bis zur fertigen Lösung. Was du bei uns machst Bei Composite Impulse gestaltest Du Bau...",
+      "requirements": [
+        "Project Management"
+      ],
+      "salary": 69000,
+      "location": "Gevelsberg",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "990584b1e6e35265b1b90e52",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/ci-composite-impulse-gmbh-co/projektingenieur-gevelsberg-181148",
+      "_id": "43859d0445242534f4e5dcc4",
+      "createdAt": "2026-10-21T13:14:07.126Z",
+      "updatedAt": "2026-10-21T13:14:07.126Z"
+    },
+    {
+      "title": "Praktikant/in Social Media & Online Marketing (m/w/d)",
+      "description": " Bist du bereit für deine nächste Herausforderung im Social Media & Event Marketing Bereich? Dann sind wir genau die richtigen für dich! Die KplusA Communications GmbH ist eine Eventagentur für Personenmarken und mittelständische Unternehmen. Wir machen Marken erlebbar und helfen durch eigene Business-Events zu mehr Umsatz, mehr Mitarbeitern und einem stärkeren Branding. Mit Hilfe unseres großen Netzwerks beraten und kreieren wir individuelle Eve...",
+      "requirements": [
+        "Social Media Manager"
+      ],
+      "salary": 74000,
+      "location": "Düsseldorf",
+      "jobType": "Praktikum",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "d4155c8ca6b227839193f379",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/kplusa-communications-gmbh/praktikant-in-social-media-online-marketing-dusseldorf-134318",
+      "_id": "ed10365727370101aa80d4f5",
+      "createdAt": "2026-10-21T13:14:07.127Z",
+      "updatedAt": "2026-10-21T13:14:07.127Z"
+    },
+    {
+      "title": "Partner Manager – Service Cooling (m/w/d)",
+      "description": " Du brennst für Kältetechnik, verhandelst gerne auf Augenhöhe und willst unser Partnernetzwerk entscheidend prägen? Bereit für deine nächste Challenge im Service Management? Dann werde Teil unseres Teams! Als Partner Manager – Service Cooling (m/w/d) bist du das zentrale Bindeglied zwischen unserem Unternehmen und unseren externen Servicepartnern. Du sorgst dafür, dass Wartungen, Reparaturen und Inbetriebnahmen bundesweit und international reibun...",
+      "requirements": [
+        "Business Development"
+      ],
+      "salary": 98000,
+      "location": "Hildesheim",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "4f12502b825f418b87315b57",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/schweitzer-project-spa/partner-manager-service-cooling-hildesheim-347282",
+      "_id": "2bf20c17943fb4fd063419ba",
+      "createdAt": "2026-10-21T13:14:07.128Z",
+      "updatedAt": "2026-10-21T13:14:07.128Z"
+    },
+    {
+      "title": "Linux-Administrator (m/w/d)",
+      "description": " Für unseren Kunden, einen etablierten IT-Dienstleister mit einer modernen und vielseitigen IT-Infrastruktur, suchen wir einen Linux Administrator (m/w/d). Dich erwartet eine abwechslungsreiche Position rund um Linux-Systeme, Rechenzentrumsbetrieb und Automatisierung. Neben deiner technischen Expertise ist auch deine Kommunikationsstärke gefragt, denn du arbeitest eng mit Kollegen und unterschiedlichen Ansprechpartnern zusammen. Deine Mission Adm...",
+      "requirements": [
+        "System and Network Administration"
+      ],
+      "salary": 93000,
+      "location": "Chemnitz",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "38ee8638bcfafa9b68a3e8e5",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/nxt-hero-gmbh/linux-administrator-chemnitz-95186",
+      "_id": "d33d396ac8d33692fa1b43d1",
+      "createdAt": "2026-10-21T13:14:07.129Z",
+      "updatedAt": "2026-10-21T13:14:07.129Z"
+    },
+    {
+      "title": "Senior Marketing Manager (m/w/d)",
+      "description": " Du suchst eine neue Herausforderung in der Creator Economy? Du bringst einschlägiges Social-Media-Know-how mit und möchtest aktiv am Wachstum eines dynamischen Umfelds mitwirken? Dann bist Du bei uns genau richtig! Für unsere Schwestergesellschaft Brezzels GmbH suchen wir Verstärkung im Marketing Bereich in Voll- oder Teilzeit. Das wird Dein Job Als Senior Marketing Manager (m/w/d) bei Brezzels nimmst Du eine zentrale Rolle bei der Zukunftsgesta...",
+      "requirements": [
+        "Marketing Manager"
+      ],
+      "salary": 99000,
+      "location": "Seligenstadt",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "018e631368a3647867a0ac53",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/brezzels-gmbh/senior-marketing-manager-seligenstadt-332248",
+      "_id": "f184cb2c321e820e6038c25d",
+      "createdAt": "2026-10-21T13:14:07.130Z",
+      "updatedAt": "2026-10-21T13:14:07.130Z"
+    },
+    {
+      "title": "Senior Sales Manager / Account Executive (m/w/d) – Vollzeit oder Teilzeit ab 80 %",
+      "description": " Die Solarize Energy Solutions GmbH mit Büros in Berlin und Stuttgart revolutioniert die Energiewirtschaft mit innovativer Meter-to-Cash-Software. Wir ermöglichen es Energieunternehmen, innovative Produkte anzubieten, von denen sowohl Verbraucher als auch die Energiewende profitieren. Ursprünglich für Mieterstrom in Gewerbeimmobilien entwickelt, unterstützt Solarize heute über 200 Unternehmen als Abrechnungslösung für PPAs, Mieterstrom, Wärme bis...",
+      "requirements": [
+        "Management",
+        "Team Leader"
+      ],
+      "salary": 95000,
+      "location": "Stuttgart",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "45583195be10c116d3383a6d",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/solarize/senior-sales-manager-account-executive-vollzeit-oder-teilzeit-ab-80-stuttgart-412023",
+      "_id": "672c5b2ea833268160343912",
+      "createdAt": "2026-10-21T13:14:07.131Z",
+      "updatedAt": "2026-10-21T13:14:07.131Z"
+    },
+    {
+      "title": "Founder’s Associate – Operations & AI (all genders)",
+      "description": " Über TradeLink TradeLink baut agentische Plattformen, die europäische Lieferketten auf ein neues Level bringen. Routineaufgaben werden dabei von intelligenten KI-Agenten übernommen, wichtige Entscheidungen und Priorisierungen bleiben in den Teams. Ein Netzwerk, das Unternehmen, Lieferanten und Spediteure verbindet, sorgt für maximale Transparenz, reduziert Zeitverluste und schafft einen sicheren und vertrauensvollen Prozess. Mit TradeLink hat ma...",
+      "requirements": [
+        "Business Operations"
+      ],
+      "salary": 89000,
+      "location": "Munich",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "6b8a14e4dc7bfe231c068317",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/tradelink/founders-associate-operations-ai-all-genders-munich-263201",
+      "_id": "fdf561c5a4ba0bd810fa9df0",
+      "createdAt": "2026-10-21T13:14:07.132Z",
+      "updatedAt": "2026-10-21T13:14:07.132Z"
+    },
+    {
+      "title": "Teamleiter Linux (m/w/d)",
+      "description": " Für unseren Kunden, einen etablierten IT-Dienstleister mit Schwerpunkt auf professionellen IT-Infrastrukturen und modernen Rechenzentrumslösungen, suchen wir einen Teamleiter Linux (m/w/d). Dich erwartet eine technisch anspruchsvolle Umgebung, in der du nicht nur deine Linux-Expertise einbringen, sondern vor allem ein Team führen, weiterentwickeln und gemeinsam mit ihm die IT-Infrastruktur gestalten kannst. Deine Mission Fachliche und disziplina...",
+      "requirements": [
+        "Management",
+        "Team Leader"
+      ],
+      "salary": 105000,
+      "location": "Wiesbaden",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "38ee8638bcfafa9b68a3e8e5",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/nxt-hero-gmbh/teamleiter-linux-wiesbaden-66965",
+      "_id": "dfccb674a62ebe916cb04296",
+      "createdAt": "2026-10-21T13:14:07.133Z",
+      "updatedAt": "2026-10-21T13:14:07.133Z"
+    },
+    {
+      "title": "Interim Manager* Abteilungsleitung Personalservice",
+      "description": " Über Wolf Personalmanagement GmbH Unser Ziel ist es, bereits in der Bewerbungsphase für Kandidaten und Kunden die Grundlagen für eine positive und gesunde Zusammenarbeit zu schaffen. „Personaldienstleistungsmanufaktur mit Herz“ (Kununu-Bewertung) Unser Mandant ist eine renommierte Bank mit Sitz in Frankfurt am Main. Wir suchen im Rahmen unseres Geschäftsfelds Interim Management zum nächst möglichen Zeitpunkt. Ihre Aufgaben im Bereich Personalser...",
+      "requirements": [
+        "Management",
+        "Team Leader"
+      ],
+      "salary": 94000,
+      "location": "Kronberg",
+      "jobType": "Freiberufler / selbstständiger",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "691ff205e823f2bc4ead5328",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/wolf-personalmanagement-gmbh/interim-manager-abteilungsleitung-personalservice-kronberg-176972",
+      "_id": "6ed8e91262d64f16037feb4f",
+      "createdAt": "2026-10-21T13:14:07.134Z",
+      "updatedAt": "2026-10-21T13:14:07.134Z"
+    },
+    {
+      "title": "Leiter* technische Infrastruktur (Ingenieur oder Meister)",
+      "description": " Unser Ziel ist es, bereits in der Bewerbungsphase für Kandidaten und Kunden die Grundlagen für eine positive und gesunde Zusammenarbeit zu schaffen. „Personaldienstleistungsmanufaktur mit Herz“ (Kununu-Bewertung) Unser Mandant ist ein internationaler Konsumgüterhersteller mit einer breiten Palette innovativer und nachhaltiger Produkte. Wir suchen im Rahmen der Direktvermittlung Aufgaben Planung und Steuerung der präventiven Instandhaltung über a...",
+      "requirements": [
+        "Building",
+        "Supply",
+        "Safety Services Engineering"
+      ],
+      "salary": 83000,
+      "location": "Kronberg",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "691ff205e823f2bc4ead5328",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/wolf-personalmanagement-gmbh/leiter-technische-infrastruktur-ingenieur-oder-meister-kronberg-349904",
+      "_id": "6db9bd8d092f40255531f4a6",
+      "createdAt": "2026-10-21T13:14:07.135Z",
+      "updatedAt": "2026-10-21T13:14:07.135Z"
+    },
+    {
+      "title": "Social Media Manager für Malen nach Zahlen (m/w/d)",
+      "description": " Dann suchen wir genau dich! Für den Aufbau eines neuen Social-Media-Accounts rund um Malen nach Zahlen, Kreativität und Entspannung suchen wir einen leidenschaftlichen Malen-nach-Zahlen-Fan, der gemeinsam mit uns von Anfang an etwas Neues aufbauen möchte. Dabei geht es nicht darum, dass du bereits ein großer Creator bist. Viel wichtiger ist uns, dass du Malen nach Zahlen wirklich liebst , ein Gefühl für guten Social-Media-Content hast und gerne ...",
+      "requirements": [
+        "Remote",
+        "Social Media Manager"
+      ],
+      "salary": 86000,
+      "location": "Langweid am Lech",
+      "jobType": "Freiberufler / selbstständiger",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "a3c8e47ccaad9b92053a405b",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/picmondoo-gmbh/social-media-manager-fur-malen-nach-zahlen-langweid-am-lech-370443",
+      "_id": "9acbf7c3eea4df029ffff309",
+      "createdAt": "2026-10-21T13:14:07.137Z",
+      "updatedAt": "2026-10-21T13:14:07.137Z"
+    },
+    {
+      "title": "Personalsachbearbeiter Entgeltabrechnung (m/w/d)",
+      "description": " Elternzeitvertretung ab 01.09.2026 oder 01.10.2026 vorerst befristet für 1 Jahr Standort: Raum Magdeburg (Barleben) Die Sattler Media GmbH ist ein innovatives und führendes Unternehmen der Druckindustrie. Als Teil der Sattler Group sind wir mit insgesamt mehr als 700 Mitarbeitenden an unseren Produktionsstandorten täglich für die Zufriedenheit unserer Kunden im Einsatz. Mit unserem breit aufgestellten Maschinenpark im Digital-, Bogenoffset- und ...",
+      "requirements": [
+        "Administration"
+      ],
+      "salary": 76000,
+      "location": "Barleben",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "47e763232502452074a8f3c7",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sattler-media-gmbh/personalsachbearbeiter-entgeltabrechnung-barleben-343094",
+      "_id": "953ff9accf2a330a79bed12e",
+      "createdAt": "2026-10-21T13:14:07.139Z",
+      "updatedAt": "2026-10-21T13:14:07.139Z"
+    },
+    {
+      "title": "HR-Administrator (m/w/d) Entgelt",
+      "description": " HR-Administrator (m/w/d) Entgelt Standort: Magdeburg, Bad Oeynhausen oder Hornburg Die Sattler Media GmbH ist ein innovatives und führendes Unternehmen der Druckindustrie. Als Teil der Sattler Group sind wir mit insgesamt mehr als 700 Mitarbeitenden an unseren Produktionsstandorten täglich für die Zufriedenheit unserer Kunden im Einsatz. Mit unserem breit aufgestellten Maschinenpark im Digital-, Bogenoffset- und Rollenoffsetdruck bilden wir alle...",
+      "requirements": [
+        "Administration"
+      ],
+      "salary": 75000,
+      "location": "Barleben",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "47e763232502452074a8f3c7",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/sattler-media-gmbh/hr-administrator-entgelt-barleben-337986",
+      "_id": "dadbd3370d98e59746f01d91",
+      "createdAt": "2026-10-21T13:14:07.143Z",
+      "updatedAt": "2026-10-21T13:14:07.143Z"
+    },
+    {
+      "title": "Demand Generation & Marketing Manager",
+      "description": " About REPLUG REPLUG is a Mobile Revenue Growth partner that helps companies turn mobile into a measurable driver of revenue, customer value and long-term business growth. We connect acquisition, retention, measurement and app experience into a unified growth system that improves commercial performance. From global app publishers to established brands looking to unlock more value from mobile, we partner with companies that want to grow more effic...",
+      "requirements": [
+        "Remote",
+        "Marketing Manager"
+      ],
+      "salary": 70000,
+      "location": "Berlin",
+      "jobType": "Fixed-term contract",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "39cbea91fca5b872cf3e979d",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/replug/demand-generation-marketing-manager-berlin-362792",
+      "_id": "8d059ba802805847c624be77",
+      "createdAt": "2026-10-21T13:14:07.144Z",
+      "updatedAt": "2026-10-21T13:14:07.144Z"
+    },
+    {
+      "title": "Microsoft Principle Project Manager (m/w/d)",
+      "description": " Krisenprojekte | Microsoft-Technologien | Turnaround-Management Hier übernehmen Sie Verantwortung für strategisch wichtige Microsoft-Großprojekte, die aus dem Takt geraten sind – und bringen sie mit Ihrer Erfahrung, Führungskraft und klarem Kurs zurück auf Erfolgsspur. Aufgaben Sie übernehmen, wenn andere nicht mehr weiterwissen – speziell bei Microsoft-Projekten. In dieser Rolle tragen Sie Verantwortung für strategisch wichtige Microsoftprojekt...",
+      "requirements": [
+        "Remote",
+        "Project Management"
+      ],
+      "salary": 74000,
+      "location": "Berlin",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "b1c22821fefa6d06cb582de5",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/miro-personalvermittlung/microsoft-principle-project-manager-berlin-312463",
+      "_id": "cc373ae6fe67e7b0422b2955",
+      "createdAt": "2026-10-21T13:14:07.146Z",
+      "updatedAt": "2026-10-21T13:14:07.146Z"
+    },
+    {
+      "title": "Head of Regulatory and PRRC for a core product incl. Project Management (m/f/d)",
+      "description": " At Vivalyx, a medical technology startup based in Cologne, we're on a mission to save the lives of those suffering from organ failure. Our innovative approach aims to significantly improve the vitality and availability of donor organs. As we gear up for certification and related studies, we're seeking dedicated team members (m/f/d) to join us starting as soon as possible, for 32-40 hours per week. We provide the opportunity to work on groundbrea...",
+      "requirements": [
+        "Compliance",
+        "Security"
+      ],
+      "salary": 97000,
+      "location": "Cologne",
+      "jobType": "Permanent employment (unbefristeter arbeitsvertrag)",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "66238d3ae6cbba700f7405c7",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/vivalyx-gmbh/head-of-regulatory-and-prrc-for-a-core-product-incl-project-management-cologne-253461",
+      "_id": "565b2702af12772233d07987",
+      "createdAt": "2026-10-21T13:14:07.147Z",
+      "updatedAt": "2026-10-21T13:14:07.147Z"
+    },
+    {
+      "title": "TikTok Livestreamer (m/w/d)",
+      "description": " Du bist offen, kommunikativ und hast Lust, vor der Kamera zu stehen? Dann könnte das hier genau zu dir passen. Wir suchen für AYLASHES motivierte Persönlichkeiten, die bei uns vor Ort TikTok-Livestreams moderieren und unsere Produkte live präsentieren. Dabei geht es nicht darum, perfekt zu sein oder schon alles zu können, sondern sympathisch rüberzukommen, gerne mit Menschen zu sprechen und Lust auf Social Media und Live-Content zu haben. AYLASH...",
+      "requirements": [
+        "Social Media Manager"
+      ],
+      "salary": 107000,
+      "location": "Pleidelsheim",
+      "jobType": "Minijob (geringfügige beschäftigung)",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "a35b9b597c963ed1efc16572",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/aylashes/tiktok-livestreamer-pleidelsheim-352811",
+      "_id": "93abc456589ad2dc446e3115",
+      "createdAt": "2026-10-21T13:14:07.148Z",
+      "updatedAt": "2026-10-21T13:14:07.148Z"
+    },
+    {
+      "title": "Business Development & Project Manager (m/w/d) Green Energy & Industrial Services",
+      "description": " Ihre Aufgaben Sie unterstützen den Geschäftsführer bei operativen, strategischen und vertrieblichen Themen, bereiten Entscheidungen vor und sorgen für deren Umsetzung. Sie steuern ausgewählte Kunden-, Vertriebs- und Unternehmensprojekte inklusive Terminen, Budgets, Verantwortlichkeiten und Risiken. Sie koordinieren Fachbereiche, Gesellschaften der WCH-Gruppe, Kunden und externe Partner und stellen eine strukturierte Projektübergabe sicher. Sie i...",
+      "requirements": [
+        "Business Development"
+      ],
+      "salary": 100000,
+      "location": "Nuremberg",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "5c1c8acdcbd229b7a2718e1d",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/wealth-collect/business-development-project-manager-green-energy-industrial-services-nuremberg-102743",
+      "_id": "f32201cf7274ba362e6cf5b8",
+      "createdAt": "2026-10-21T13:14:07.149Z",
+      "updatedAt": "2026-10-21T13:14:07.149Z"
+    },
+    {
+      "title": "Produktentwickler/Entwicklungsingenieur (m/w/d)",
+      "description": " Du willst Technik nicht nur anwenden, sondern neu denken? Du begeisterst dich für neue Technologien, hinterfragst bestehende Lösungen und hast Freude daran, aus einer Idee eine funktionierende technische Lösung zu machen? Du wartest nicht darauf, dass dir jemand den nächsten Schritt vorgibt, sondern eignest dir Wissen selbst an, entwickelst Lösungswege und bringst Projekte eigenständig voran? Dann möchten wir dich kennenlernen. Für unsere techni...",
+      "requirements": [
+        "Development"
+      ],
+      "salary": 91000,
+      "location": "Würselen",
+      "jobType": "Unbefristeter arbeitsvertrag",
+      "experienceLevel": 2,
+      "position": 1,
+      "company": "1293c8490821c952487f6944",
+      "created_by": "e51c051f5c9e369aab728528",
+      "applyUrl": "https://www.arbeitnow.com/jobs/companies/kellermann-lighting-gmbh-co-kg/produktentwickler-entwicklungsingenieur-wurselen-322791",
+      "_id": "b9768f498d1d27a362f4f6a3",
+      "createdAt": "2026-10-21T13:14:07.151Z",
+      "updatedAt": "2026-10-21T13:14:07.151Z"
+    }
+  ],
+  "applications": [
+    {
+      "job": "b98eaca064f40479139a92a9",
+      "applicant": "7af22ccae59a425825cb99f2",
+      "_id": "04afd59aab94f7cb7eba9fe3",
+      "createdAt": "2026-10-21T12:51:00.384Z",
+      "updatedAt": "2026-10-21T12:51:00.384Z"
+    },
+    {
+      "job": "5f84ad536ebf64734b8adb39",
+      "applicant": "7af22ccae59a425825cb99f2",
+      "_id": "19f81178367d13d92e9c1821",
+      "createdAt": "2026-10-21T12:51:39.086Z",
+      "updatedAt": "2026-10-21T12:51:39.086Z"
+    },
+    {
+      "job": "be9cac9c0d8f8d4a9f200db7",
+      "applicant": "7af22ccae59a425825cb99f2",
+      "_id": "4510b3e91c0af72a95dcc763",
+      "createdAt": "2026-10-21T12:52:27.605Z",
+      "updatedAt": "2026-10-21T12:52:27.605Z"
+    },
+    {
+      "job": "5f84ad536ebf64734b8adb39",
+      "applicant": "5e2da44d47fc42c398ba1ade",
+      "_id": "c168f1baf9daf975b89c7c34",
+      "createdAt": "2026-10-21T12:55:54.620Z",
+      "updatedAt": "2026-10-21T12:55:54.620Z"
+    }
+  ]
+}

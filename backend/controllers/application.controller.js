@@ -16,12 +16,12 @@ export const applyJob = async (req, res) => {
 
         if (existingApplication) {
             return res.status(400).json({
-                message: "You have already applied for this jobs",
+                message: "You have already applied for this job",
                 success: false
             });
         }
 
-        // check if the jobs exists
+        // check if the job exists
         const job = await Job.findById(jobId);
         if (!job) {
             return res.status(404).json({
@@ -35,6 +35,9 @@ export const applyJob = async (req, res) => {
             applicant:userId,
         });
 
+        if (!Array.isArray(job.applications)) {
+            job.applications = [];
+        }
         job.applications.push(newApplication._id);
         await job.save();
         return res.status(201).json({
@@ -42,7 +45,12 @@ export const applyJob = async (req, res) => {
             success:true
         })
     } catch (error) {
-        console.log(error);
+        console.error("Apply job error:", error);
+        return res.status(500).json({
+            message: "Internal server error while applying for job",
+            success: false,
+            error: error.message
+        });
     }
 };
 export const getAppliedJobs = async (req,res) => {
@@ -58,7 +66,7 @@ export const getAppliedJobs = async (req,res) => {
         });
         if(!application){
             return res.status(404).json({
-                message:"No Applications",
+                message:"No Applications found",
                 success:false
             })
         };
@@ -67,7 +75,12 @@ export const getAppliedJobs = async (req,res) => {
             success:true
         })
     } catch (error) {
-        console.log(error);
+        console.error("Get applied jobs error:", error);
+        return res.status(500).json({
+            message: "Internal server error while fetching applications",
+            success: false,
+            error: error.message
+        });
     }
 }
 // admin dekhega kitna user ne apply kiya hai
@@ -89,10 +102,15 @@ export const getApplicants = async (req,res) => {
         };
         return res.status(200).json({
             job, 
-            succees:true
+            success:true
         });
     } catch (error) {
-        console.log(error);
+        console.error("Get applicants error:", error);
+        return res.status(500).json({
+            message: "Internal server error while fetching applicants",
+            success: false,
+            error: error.message
+        });
     }
 }
 export const updateStatus = async (req,res) => {
@@ -125,6 +143,11 @@ export const updateStatus = async (req,res) => {
         });
 
     } catch (error) {
-        console.log(error);
+        console.error("Update status error:", error);
+        return res.status(500).json({
+            message: "Internal server error while updating status",
+            success: false,
+            error: error.message
+        });
     }
 }

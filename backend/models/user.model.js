@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { createDualModel } from "../utils/dualModel.js";
 
 const userSchema = new mongoose.Schema({
     fullname: {
@@ -35,4 +36,6 @@ const userSchema = new mongoose.Schema({
         }
     },
 },{timestamps:true});
-export const User = mongoose.model('User', userSchema);
+
+const MongooseUser = mongoose.model('User', userSchema);
+export const User = createDualModel('users', MongooseUser);

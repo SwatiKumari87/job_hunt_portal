@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { createDualModel } from "../utils/dualModel.js";
 
 const jobSchema = new mongoose.Schema({
     title: {
@@ -47,6 +48,12 @@ const jobSchema = new mongoose.Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Application',
         }
-    ]
+    ],
+    applyUrl: {
+        type: String,
+        default: ""
+    }
 },{timestamps:true});
-export const Job = mongoose.model("Job", jobSchema);
+
+const MongooseJob = mongoose.model("Job", jobSchema);
+export const Job = createDualModel("jobs", MongooseJob);

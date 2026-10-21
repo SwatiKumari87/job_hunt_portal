@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { createDualModel } from "../utils/dualModel.js";
 
 const companySchema = new mongoose.Schema({
     name:{
@@ -24,4 +25,6 @@ const companySchema = new mongoose.Schema({
         required:true
     }
 },{timestamps:true})
-export const Company = mongoose.model("Company", companySchema);
+
+const MongooseCompany = mongoose.model("Company", companySchema);
+export const Company = createDualModel("companies", MongooseCompany);

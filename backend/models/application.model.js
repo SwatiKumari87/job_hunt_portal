@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { createDualModel } from "../utils/dualModel.js";
 
 const applicationSchema = new mongoose.Schema({
     job:{
@@ -17,4 +18,6 @@ const applicationSchema = new mongoose.Schema({
         default:'pending'
     }
 },{timestamps:true});
-export const Application  = mongoose.model("Application", applicationSchema);
+
+const MongooseApplication = mongoose.model("Application", applicationSchema);
+export const Application = createDualModel("applications", MongooseApplication);

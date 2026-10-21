@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
+    "scrape": "node utils/jobScraper.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
